@@ -1,0 +1,28 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore environment variables (API keys, secrets)
+.env
+
+# Ignore Virtual Environments (if using venv)
+venv/
+.venv/
+
+# Ignore logs and debug files
+*.log
+
+# Ignore frontend build files
+frontend/node_modules/
+frontend/dist/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/editor config files
+.vscode/
+.idea/
+*.swp
